@@ -5,4 +5,3 @@ n = boundary // divisor
 
 n = n * divisor
 print(n)
-
