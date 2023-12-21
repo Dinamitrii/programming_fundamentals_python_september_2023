@@ -1,4 +1,4 @@
-def min_max_sum():
+def min_max_sum(some_list: list):
     list_of_integers = list(map(int, integer_input_as_string))
 
     minimum = min(list(list_of_integers))
@@ -10,4 +10,4 @@ def min_max_sum():
 integer_input_as_string = input().split()
 
 
-min_max_sum()
+min_max_sum(integer_input_as_string)
